@@ -1,0 +1,24 @@
+# Environment
+=====================
+Java = jdk1.7.0_75
+Database = mysql-5.5.42
+Server = apache-tomcat-7.0.59
+OS = Windows 8.1
+
+# Steps for deployment
+======================
+1. Create table from import.sql script
+2. Add dummy data from insert queries in import.sql
+3. Create folder 'images' in 'E:\images'
+4. Change default path in Constants class as per OS and folder structure
+4. Copy images from folder 'images' in folder WebContent
+5. Export project as war to server webapps folder in eclipse or copy war file from 'build' folder
+6. Type link 'http://localhost:8080/CMS/home.do' in browser
+
+# Assumptions
+=====================
+1. User can upload new image for existing product (jpeg/jpg/png)
+2. User can update price, description and availability
+4. Stock Number cannot be edited by user
+5. Description should not exceed 4000 characters
+
