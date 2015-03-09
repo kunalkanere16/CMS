@@ -7,13 +7,14 @@ OS = Windows 8.1
 
 # Steps for deployment
 ======================
-1. Create table from import.sql script
-2. Add dummy data from insert queries in import.sql
-3. Create folder 'images' in 'E:\images'
-4. Change default path in Constants class as per OS and folder structure
-4. Copy images from folder 'images' in folder WebContent
-5. Export project as war to server webapps folder in eclipse or copy war file from 'build' folder
-6. Type link 'http://localhost:8080/CMS/home.do' in browser
+1. Create database called CMS5
+2. Create table from import.sql script
+3. Add dummy data from insert queries in import.sql
+4. Create folder 'images' in 'E:\images'
+5. Change default path in Constants class as per OS and folder structure
+6. Copy images from folder 'images' in folder WebContent
+7. Export project as war to server webapps folder in eclipse or copy war file from 'build' folder
+8. Type link 'http://localhost:8080/CMS/home.do' in browser
 
 # Assumptions
 =====================
